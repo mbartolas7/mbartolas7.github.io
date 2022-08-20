@@ -1,11 +1,5 @@
 (function () {
-    const profile_url = "http://fr.gravatar.com/mathias6120.json"
-
-    fetch(profile_url).then(function(response) {
-        response.json().then(data => {
-            const image_url = data.entry[0].thumbnailUrl + "?size=500"
-            const profileImage = document.getElementById("profileImage")
-            profileImage.src = image_url
-        })
-    })  
+    const image_url = "https://www.gravatar.com/avatar/a28cd32ac570bb3b1fe687d56193ba89?size=500"
+    const profileImage = document.getElementById("profileImage")
+    profileImage.src = image_url
 })();
