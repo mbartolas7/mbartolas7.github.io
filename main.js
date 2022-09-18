@@ -14,6 +14,9 @@
         
                 newItem_img.classList.add("itemImage")
                 newItem_img.src = item.urls.regular
+
+                newItem.setAttribute("onclick", "window.open('" + item.links.html + "')");
+
                 
                 imagesGrid.appendChild(newItem);
             });
