@@ -133,7 +133,7 @@ hr {
 @media screen and (min-width: 700px){
     #imagesGrid {
         position: absolute;
-        margin-top: 270px;
+        margin-top: 270px; 
     }
 }
 @media screen and (max-width: 1358px) {
